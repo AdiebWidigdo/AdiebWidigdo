@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+
+<title>Bulma Testing</title>
+</head>
+<body>
+
+
+  <section class="hero is-success is-medium">
+    <div class="hero-body">
+      <h1 class="title is-1 is-bold is-spaced">Testing Bulma</h1>
+      <h2 class="sub-title">By Adieb</h2>
+    </div>
+  </section>
+
+  <section class = "section">
+    <div class="container">
+
+    <H1 class="title"> Bulma Testing </H1>
+    <div class="columns">
+
+    <div class="column">
+      <p class="notification is-light">First column</p>
+      <p class="body-weight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in eleifend eros. Nam tempus lacus vitae interdum aliquet. Duis dapibus orci vitae pretium ornare. Nullam consequat consectetur tellus, sed euismod nisl ultrices quis. Vivamus rutrum eleifend sem, non tincidunt ex elementum non. <br><br></p>
+      
+      <button class="button is-success is-medium">Click here!</button>
+    </div>
+
+    <div class="column">
+      <p class="notification is-light">Second column</p>
+      <p class="body-weight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in eleifend eros. Nam tempus lacus vitae interdum aliquet. Duis dapibus orci vitae pretium ornare. Nullam consequat consectetur tellus, sed euismod nisl ultrices quis. Vivamus rutrum eleifend sem, non tincidunt ex elementum non. <br><br></p>
+      
+      <button class="button is-success is-medium">Click here!</button>
+    </div>
+
+    <div class="column">
+      <p class="notification is-light">Third column</p>
+      <p class="body-weight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in eleifend eros. Nam tempus lacus vitae interdum aliquet. Duis dapibus orci vitae pretium ornare. Nullam consequat consectetur tellus,
+      sed euismod nisl ultrices quis. Vivamus rutrum eleifend sem, non tincidunt ex elementum non.<br><br></p>
+      
+      <button class="button is-success is-medium">Click here!</button>
+    </div>
+
+    <div class="column">
+      <p class="notification is-light">Fourth column</p>
+      <p class="is-grey-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in eleifend eros. Nam tempus lacus vitae interdum aliquet. Duis dapibus orci vitae pretium ornare. Nullam consequat consectetur tellus, sed euismod nisl ultrices quis. Vivamus rutrum eleifend sem, non tincidunt ex elementum non. <br><br></p>
+      
+      <button class="button is-success is-medium is-center">Click here!</button>
+    </div>
+  </div>
+</div>
+</section>
+  
+
+  
+</body>
+</html>
