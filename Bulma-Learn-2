@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+<style>
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .darkgreen{
+    background: #198C3A;
+  }
+
+</style>
+
+<title>Bulma Testing</title>
+</head>
+<body>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <figure class="image center">
+        <img src="images/Logo-1.png" style="max-width:256px;">
+        </figure>
+        <!--<h1 class="title is-1 is-bold is-spaced">Testing Bulma</h1>
+        <h2 class="sub-title">By Adieb</h2>-->
+      </div>
+    </div>
+  </section>
+  <!-- Untuk Heronya -->
+
+
+  <!-- untuk isinya -->
+  <section class = "section has-background-light">
+    <div class="container">
+  
+    <H1 class="subtitle center">Bulma Testing</H1>
+      <div class="columns">
+        <div class="column">
+          <article class="media notification is-success">
+            <figure class="media-left">
+              <span class="icon is-large">
+                <i class="fab fa-2x fa-css3-alt"></i>
+              </span>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <h1 class="title is-size-3">First Colomn</h1>
+                <p class="is-size-6">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in eleifend eros. Nam tempus lacus vitae interdum aliquet.<br><br>
+                </p>
+                <button class="button is-medium is-warning">Click here!</button>
+              </div>
+            </div>
+          </article>
+        </div>
+
+      <div class="column">
+          <article class="media notification is-success">
+            <figure class="media-left">
+              <span class="icon is-large">
+                <i class="fab fa fa-user-circle fa-2x"></i>
+              </span>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <h1 class="title is-size-3">Second Colomn</h1>
+                <p class="is-size-6">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in eleifend eros. Nam tempus lacus vitae interdum aliquet.<br><br>
+                </p>
+                <button class="button is-medium is-warning">Click here!</button>
+              </div>
+            </div>
+          </article>
+        </div>
+
+      <div class="column">
+          <article class="media notification is-success">
+            <figure class="media-left">
+              <span class="icon is-large">
+                <i class="fab fa fa-camera-retro fa-2x"></i>
+              </span>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <h1 class="title is-size-3">Third Colomn</h1>
+                <p class="is-size-6">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in eleifend eros. Nam tempus lacus vitae interdum aliquet.<br><br>
+                </p>
+                <button class="button is-medium is-warning">Click here!</button>
+              </div>
+            </div>
+          </article>
+        </div>
+    </div>
+  
+    <div class="columns">
+        <div class="column">
+          <article class="media notification is-success">
+            <figure class="media-left">
+              <span class="icon is-large">
+                <i class="fab fa fa-spinner fa-spin fa-2x fa-fw"></i>
+              </span>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <h1 class="title is-size-3">Fourth Colomn</h1>
+                <p class="is-size-6">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in eleifend eros. Nam tempus lacus vitae interdum aliquet.<br><br>
+                </p>
+                <button class="button is-medium is-warning">Click here!</button>
+              </div>
+            </div>
+          </article>
+        </div>
+
+      <div class="column">
+          <article class="media notification is-success">
+            <figure class="media-left">
+              <span class="icon is-large">
+                <i class="fab fa fa-trash fa-2x"></i>
+              </span>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <h1 class="title is-size-3">Fifth Colomn</h1>
+                <p class="is-size-6">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in eleifend eros. Nam tempus lacus vitae interdum aliquet.<br><br>
+                </p>
+                <button class="button is-medium is-warning">Click here!</button>
+              </div>
+            </div>
+          </article>
+        </div>
+
+      <div class="column">
+          <article class="media notification is-success">
+            <figure class="media-left">
+              <span class="icon is-large">
+                <i class="fab fa fa-car fa-2x"></i>
+              </span>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <h1 class="title is-size-3">Sixth Colomn</h1>
+                <p class="is-size-6">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in eleifend eros. Nam tempus lacus vitae interdum aliquet.<br><br>
+                </p>
+                <button class="button is-medium is-warning">Click here!</button>
+              </div>
+            </div>
+          </article>
+        </div>
+    </div>
+
+</div>
+</section>
+  
+
+  
+</body>
+</html>
