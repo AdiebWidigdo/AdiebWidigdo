@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<!-- install Google Maps -->
+<script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+
+
+<!-- CSS include -->
+<style>
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-decoration: none;
+  }
+
+
+  .darkgreen{
+    background: #198C3A;
+  }
+  hr.normal{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    background-color:#63D611;
+    border-width: 3px;
+  }
+
+  .cucolor{
+    background: #2AAF4B;
+  }
+
+  h1.cucolor1 {
+    color : #2BAF4C;
+  }
+
+  #map {
+  height: 400px;  
+  width: 100%;  
+  }
+
+  a.khusus {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-decoration: none;
+    color: #262626;
+  }
+
+
+</style>
+
+<title>ChargeUp x Bulma</title>
+</head>
+<body>
+<!-- Buat Navbarnya -->
+<nav class="navbar is-fixed-top is-spaced" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="https:chargeup.asia">
+      <img src="https://chargeup.asia/wp-content/uploads/2018/06/WebsiteLogo.png" width="112" height="100">
+    </a>
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-end">
+      <a class="navbar-item" href="http://chargeup.zendesk.com/hc/en-us/articles/360000620621-What-is-ChargeUp-">
+        About
+      </a>
+      <a class="navbar-item" href="https://chargeup.asia/partnership/">
+        Be a Partner
+      </a>
+      <a class="navbar-item" href="https://chargeup.asia/whats-new/">
+        What's New ?
+      </a>
+      <a class="navbar-item" href="https://chargeup.zendesk.com/hc/en-us">
+        Help Center
+      </a>
+      
+    </div>
+  </div>
+</nav>  
+
+<!-- Untuk Heronya -->
+  <section class="hero is-large cucolor">
+    <div class="hero-body ">
+      <div class="container">
+        <h1 class="title is-1 center has-text-white">
+        Stay Charged Everywhere!</h1>
+        <div class="columns is-multiline ">
+          <div class="column">
+            <figure class="image">
+             
+            </figure>
+          </div>
+          <div class="column is half">
+            <figure class="image center">
+              <img src="https://chargeup.asia/wp-content/uploads/2019/11/App-Store.png" style="max-width:200px;">
+            </figure>
+          </div>
+          <div class="column">
+            <figure class="image center">
+              <img src="https://chargeup.asia/wp-content/uploads/2019/11/Google-Play.png" style="max-width:200px;">
+            </figure>
+          </div>
+          <div class="column">
+            <figure class="image center">
+              
+            </figure>
+          </div>
+        </div>     
+        
+      </div>
+    </div>
+  </section>
+
+
+  <!-- On-the-Go Powerbank -->
+  <section class="section">
+    <div class="container">
+      <h1 class="title center cucolor1">On-the-go Powerbank</H1><br>
+      <hr class="normal">
+      <div class ="columns">
+        <div class ="column">
+          <figure class="image center">
+          <img src="https://scontent-kut2-1.xx.fbcdn.net/v/t1.0-9/92951371_3467922529889723_5921909441824817152_o.jpg?_nc_cat=108&_nc_sid=8024bb&_nc_ohc=Hr1AduGT-34AX83OXfI&_nc_ht=scontent-kut2-1.xx&oh=b9d0d4bd6a0722e0176a4fcf0ad85436&oe=5EB73D8D" style="max-width:800px;">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Features That Matter -->
+  <section class="section has-background-light">
+    <div class="container ">
+      <h1 class="title center cucolor1">Features That Matter</H1><br>
+      <hr class="normal">
+      <div class ="columns">
+
+        <div class="column is-1">
+          <article class="media notification">
+            <div class="media-content">
+            </div>
+          </article>
+        </div>
+
+        <div class="column">
+          <article class="media notification">
+            <div class="media-content">
+              <figure class="image center">
+          <img src="https://chargeup.asia/wp-content/uploads/2019/11/Homepage_Features-Coverage-1.png" style="max-width:230px;">
+          </figure>
+            </div>
+          </article>
+        </div>
+        
+        <div class="column">
+          <article class="media notification">
+            <div class="media-content">
+              <figure class="image center">
+          <img src="https://chargeup.asia/wp-content/uploads/2019/11/Homepage_Features-3_Features-Convenience.png" style="max-width:230px;">
+          </figure>
+            </div>
+          </article>
+        </div>
+
+        <div class="column">
+          <article class="media notification">
+            <div class="media-content">
+              <figure class="image center">
+          <img src="https://chargeup.asia/wp-content/uploads/2019/11/Homepage_Features-Affordable-1.png" style="max-width:230px;">
+          </figure>
+            </div>
+          </article>
+        </div>
+
+        <div class="column is-1">
+          <article class="media notification">
+            <div class="media-content">
+            </div>
+          </article>
+        </div>
+
+        </div>
+      </div>
+    </section>
+
+
+  <!-- Check Out Our Partners -->
+  <section class="section">
+    <div class="container">
+      <h1 class="title center cucolor1">On-the-go Powerbank</H1><br>
+      <hr class="normal">
+      <div class ="columns">
+        <div class ="column">
+          <h1 class="title is-5 center">@ChargeUpMY</h3><br>
+          <figure class="image center">
+          <img src="https://scontent-kut2-2.xx.fbcdn.net/v/t1.0-9/92990910_3467982419883734_5205914483498680320_o.jpg?_nc_cat=105&_nc_sid=8024bb&_nc_ohc=0HjOnpFHp0AAX-8bX4q&_nc_ht=scontent-kut2-2.xx&oh=cdc784559bfd0a5a47b720af0818c1d2&oe=5EB45D48" style="max-width:800px;">
+          </figure>
+          <br><br><h1 class="title is-5 center cucolor1">Interested to be a partner? Click the button below to find out more!</H1><br>
+          <center><button class="button is-medium cucolor center has-text-white"> BE A CHARGEUP PARTNER TODAY! </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<!-- sub Footer -->
+  <section class="section has-background-light">
+    <div class="container ">
+      <h1 class="title center cucolor1">Features That Matter</H1><br>
+      <hr class="normal">
+      <div class ="columns">
+
+        <div class="column is-1 ">
+          <article class="media notification">
+            <div class="media-content">
+            </div>
+          </article>
+        </div>
+
+        <div class="column is-3">
+          <article class="media notification">
+            <div class="media-content">
+              <img src="https://chargeup.asia/wp-content/uploads/2018/06/WebsiteLogo.png" height="200"><br><br>
+              <h1 class="title is-6">STAY CHARGED, KEEP MOVING.</h1><br>
+              <p class= "subtitle is-7"> No.1&3, Jalan TPP 1/3
+                <br>Taman Industri Puchong Batu
+                <br>12,47100 Puchong Selangor
+                <br>Darul Ehsan Malaysia </p>
+                <br>
+              <h1 class="title is-6">Social Media</h1>
+              <div class="columns">
+                <div class="column">
+                  <figure class="image center">
+                    <a href="http://www.instagram.com/chargeupmy/">
+                    <img alt="http://www.instagram.com/chargeupmy/"  src="https://chargeup.asia/wp-content/uploads/2019/08/Button-Instagram-150x150.png" style="max-height: 100px; max-width: 100px;"></a>
+                  </figure>
+                </div>
+
+                <div class="column">
+                  <figure class="image center">
+                    <a href="https://www.facebook.com/ChargeUpMY">
+                    <img alt="https://www.facebook.com/ChargeUpMY" src="https://chargeup.asia/wp-content/uploads/2019/08/Button-Facebook-150x150.png" style="max-height: 100px; max-width: 100px;"></a>
+                  </figure>
+                </div>
+              </div>
+
+            </div>
+          </article>
+        </div>
+        
+        <div class="column is-5">
+          <article class="media notification">
+            <div class="media-content">
+              <h3>Google Maps</h3>
+
+
+    <!--The div element for the map -->
+    <div id="map"></div>
+
+            </div>
+          </article>
+        </div>
+
+        <div class="column is-3">
+          <article class="media notification">
+            <div class="media-content">
+              <aside class="menu">
+                <p class="menu-label">
+                  General
+                </p>
+                <ul class="menu-list">
+                  <li><a class="khusus" href="https://chargeup.zendesk.com/hc/en-us/categories/360000705534-Announcements" style="text-decoration:none">Announcements</a></li>
+                  <li><a class="khusus" href="https://chargeup.zendesk.com/hc/en-us/articles/360000620621-What-is-ChargeUp-" style="text-decoration:none">About</a></li>
+                  <li><a class="khusus" href="https://chargeup.zendesk.com/hc/en-us/articles/360000620621-What-is-ChargeUp-" style="text-decoration:none">Help Center</a></li>
+                  <li><a class="khusus" href="https://chargeup.zendesk.com/hc/en-us/articles/360007120593-ChargeUp-Terms-of-Use-and-Service" style="text-decoration:none">Terms of Use and Service</a></li>
+                  <li><a class="khusus" href="https://chargeup.zendesk.com/hc/en-us/articles/360007045434-ChargeUp-Privacy-Policy" style="text-decoration:none">Privacy Policy</a></li>
+              </aside>
+            </div>
+          </article>
+        </div>
+
+        <div class="column is-1">
+          <article class="media notification">
+            <div class="media-content">
+            </div>
+          </article>
+        </div>
+
+        </div>
+      </div>
+    </section>
+
+<!-- Footer -->
+    <section class="section has-background-dark">
+      <div class="container">
+        <p class="subtitle is-7 has-text-light">
+          © 2019 GoShare Sdn. Bhd. 1252645-A | +60 380682566 | All Rights Reserved
+          <br>No.1&3, Jalan TPP 1/3 Taman Industri Puchong Batu 12,47100 Puchong Selangor Darul Ehsan Malaysia
+        </p>
+      </div>
+    </section>
+  
+</body>
+
+</html>
